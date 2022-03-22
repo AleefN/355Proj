@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>VegPetFood</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+
+
+<body>
+    <!-- <nav class="navbar">
+        <div class="navbarlinks" id="myTopnav">
+            <a href="./register.html"><i class="fa fa-fw fa-user"></i> Register</a>
+            <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+            <a href="./aboutUs.html"><i class="fa fa-users" aria-hidden="true"></i> About Us</a>
+            <a href="./games.html"><i class="fa fa-gamepad" style="font-size:20px"></i> Games</a>
+            <a href="javascript:void(0);" class="icon" onclick="resizeBrowser()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="https://cdn.glitch.me/ccd74a08-5814-4e0b-990f-30b66fc3f6f5%2FPOST.jpg?v=1638856188280"
+                    alt="GameX Logo" id="logo" />
+            </a>
+        </div>
+    </nav> -->
+
+    <div class="container">
+
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="" style="width:100%" />
+            </div>
+            <div class="column">
+                <form action="https://formspree.io/f/mvolozgd" method="POST">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name.." />
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                    <br>
+                    <label for="country">Country</label>
+                    <br>
+                    <input type="radio" id="usa" name="usa" value="USA">
+                    <label for="usa">USA</label><br>
+                    <input type="radio" id="canada" name="canada" value="Canada">
+                    <label for="canada">Canada</label><br>
+                    <input type="radio" id="india" name="india" value="India">
+                    <label for="india">India</label>
+                    <br />
+                    <br />
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" />
+                    <br>
+                    <label for="message">Your message</label>
+                    <br />
+                    <textarea id="message" name="message" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import the webpage's javascript file -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
