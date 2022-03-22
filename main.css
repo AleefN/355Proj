@@ -127,3 +127,6 @@ nav ul li i {
 .navbar ul li:hover::after {
   width: 100;
 }
+a{
+  color: white;
+}
