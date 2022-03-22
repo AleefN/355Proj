@@ -65,7 +65,7 @@ h1 {
 }
 
 .bg {
-  background-image: url(kit.jpg);
+  background-image: url(/img/kit.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   top: -30px;
