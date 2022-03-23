@@ -34,7 +34,7 @@ body {
 }
 
 .circle {
-    background-color: #ff7979;
+    background-color: #987456;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -94,7 +94,7 @@ nav ul {
 }
 
 nav ul li {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #fff;
     margin: 50px auto;
     transform: translateX(-100%);
@@ -106,16 +106,28 @@ nav ul li i {
     margin-right: 10px;
 }
 
-/* This targets ABOUT and makes it stick out in the nav */
+/* This targets Products and makes it stick out in the nav */
 nav ul li+li {
     margin-left: 15px;
     transform: translateX(-150%);
 }
 
-/* This targets CONTACT and makes it stick out in the nav */
+/* This targets Contact and makes it stick out in the nav */
 nav ul li+li+li {
     margin-left: 30px;
     transform: translateX(-200%);
+}
+nav ul li+li+li+li {
+    margin-left: 45px;
+    transform: translateX(-250%);
+}
+nav ul li+li+li+li+li {
+    margin-left: 60px;
+    transform: translateX(-300%);
+}
+
+nav a{
+    color: white;
 }
 
 .content img {
