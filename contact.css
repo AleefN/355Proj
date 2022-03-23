@@ -1,10 +1,10 @@
 
 /* Contact Us */
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
-  
-  
+
+
   /* Style inputs */
   input[type="text"],
   select,
@@ -18,28 +18,28 @@
 
   }
   input[type="submit"] {
-  
+
     color: rgb(177, 8, 8);
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
-  
+
   input[type="submit"]:hover {
     background-color: #45a049;
   }
-  
+
   /* Style the container/contact section */
   .container {
-    background: url("img/human.jpeg") no-repeat center; 
+    background: url("img/human.jpeg") no-repeat center;
     background-size: cover;
     border-radius: 5px;
     padding: 50px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    
+
   }
-  
+
   /* Create two columns that float next to eachother */
   .column {
     float: left;
@@ -48,14 +48,15 @@
     padding: 20px;
     color:black;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
-   
+
     content: "";
     display: table;
     clear: both;
   }
+
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -65,4 +66,3 @@
       margin-top: 0;
     }
   }
-  
